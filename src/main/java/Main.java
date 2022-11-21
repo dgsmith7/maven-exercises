@@ -1,4 +1,3 @@
-import org.apache.commons.lang3.StringUtils;
 import java.util.Scanner;
 
 import static org.apache.commons.lang3.StringUtils.*;
@@ -11,7 +10,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("PLease enter something: ");
         s = in.nextLine();
-        System.out.println("You eneterd: \"" + s + "\"");
+        System.out.println("You entered: \"" + s + "\"");
         if (isNumeric(s)) {
             s2 = "is";
         } else {
